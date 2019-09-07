@@ -9,7 +9,7 @@ setup(
     description='Saves a JSON fields SQLs cell to a file, or UPDATE it back',
     author='Kyle Pericak',
     author_email='kyle@pericak.com',
-    url='kyle.pericak.com/jsc2f',
+    url='https://github.com/kylep/jsc2f',
     download_url='https://github.com/kylep/jsc2f/archive/v0.1.tar.gz',
     keywords=['SQL', 'JSON', 'file'],
     install_requires=[
