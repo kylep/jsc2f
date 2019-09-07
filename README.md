@@ -64,12 +64,12 @@ import jsc2f.lib as jsc2f
 
 # Get data from SQL cell and write it to JSON file
 jsc2f.save_to_file(filename=filename, host=db_ip, user=db_user,
-									 password=db_password, database=db_name, column=column,
-									 table=table, where=where, port=db_port)
+                   password=db_password, database=db_name, column=column,
+                   table=table, where=where, port=db_port)
 
 # Get JSON from file and write it to SQL cell
 jsc2f.update_from_file(filename=filename, host=db_ip, user=db_user,
-											 password=db_password, database=db_name,
-											 column=column, table=table, where=where,
-											 port=db_port)
+                       password=db_password, database=db_name,
+                       column=column, table=table, where=where,
+                       port=db_port)
 ```
