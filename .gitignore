@@ -2,3 +2,5 @@
 env/
 *.sql
 *.swp
+*.egg-info/
+dist/
