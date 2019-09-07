@@ -22,16 +22,12 @@ pip install jsc2f
 
 # CLI Usage Example
 
-```bash
-# Example variables
-db-ip=""
-db-name=""
-db-password=""
-db-user=""
-filename=""
-table=""
-column=""
+- `download` will save the JSON string from the SQL cell to a nicely formatted
+  file for editing.
+- `upload` will update the cell with the JSON file
+- `--where` is used as a selector: `--where "id == 3"`
 
+```bash
 # Download a cell to a file
 jsc2f download \
   --db-ip $database_ip \
@@ -51,6 +47,26 @@ jsc2f upload \
   --filename $file_path \
   --table $table_name \
   -column $column_name
+```
+
+```bash
+# jsc2f  --help
+Usage: jsc2f [OPTIONS]
+
+  Upload/Download JSON SQL Cell from/to a local file
+
+Options:
+  --where TEXT
+  --table TEXT           [required]
+  --column TEXT          [required]
+  --db-name TEXT         [required]
+  --db-password TEXT     [required]
+  --db-user TEXT         [required]
+  --db-port INTEGER
+  --db-ip TEXT           [required]
+  --filename TEXT        [required]
+  --upload / --download  Upload or download  [required]
+  --help                 Show this message and exit.
 ```
 
 
