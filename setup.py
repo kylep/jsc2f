@@ -22,6 +22,8 @@ setup(
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Information Technology',
-        'Topic :: Database'
-
+        'Topic :: Database',
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Natural Language :: English']
 )
