@@ -10,6 +10,7 @@ setup(
     author='Kyle Pericak',
     author_email='kyle@pericak.com',
     url='kyle.pericak.com/jsc2f',
+    download_url='https://github.com/kylep/jsc2f/archive/v0.1.tar.gz',
     keywords=['SQL', 'JSON', 'file'],
     install_requires=[
         'click',
@@ -25,5 +26,6 @@ setup(
         'Topic :: Database',
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
-        'Natural Language :: English']
+        'Natural Language :: English'
+    ]
 )
