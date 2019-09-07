@@ -10,6 +10,7 @@ setup(
     version='0.1.1',
     license='MIT',
     description='Saves a JSON fields SQLs cell to a file, or UPDATE it back',
+    long_description=long_description,
     author='Kyle Pericak',
     author_email='kyle@pericak.com',
     url='https://github.com/kylep/jsc2f',
