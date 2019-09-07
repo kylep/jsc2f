@@ -1,6 +1,9 @@
 """Set up the JSC2F (JSON SQL Cell to File) package"""
 from setuptools import setup
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name='jsc2f',
     packages=['jsc2f'],
