@@ -7,10 +7,11 @@ with open("README.md", "r") as fh:
 setup(
     name='jsc2f',
     packages=['jsc2f'],
-    version='0.1.1',
+    version='0.1.3',
     license='MIT',
     description='Saves a JSON fields SQLs cell to a file, or UPDATE it back',
     long_description=long_description,
+    long_description_content_type="text/markdown",
     author='Kyle Pericak',
     author_email='kyle@pericak.com',
     url='https://github.com/kylep/jsc2f',
